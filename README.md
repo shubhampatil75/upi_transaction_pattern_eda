@@ -52,7 +52,7 @@ India's UPI ecosystem processed over **₹20 lakh crore** in transactions in FY2
 | 12 | What does the volume–value divergence tell us about India's payment habits? |
 
 ---
-## 📁 Dataset 
+## 📁 Dataset Description 
 
 ⚠️ Due to GitHub file size limitations, the complete dataset is not included in this repository.
 
@@ -75,9 +75,7 @@ data/
 ├── upi_transactions_2024.csv
 └── upi_transactions_2025.csv
 
----
-
-## 📁 Dataset Description
+## 📁 Dataset Overview
 
 | File | Year | Rows | Key Event |
 |------|------|------|-----------|
