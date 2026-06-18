@@ -1,0 +1,27 @@
+# ─────────────────────────────────────────────────────────
+# requirements.txt
+# India Data Science Portfolio Projects
+# UPI Transaction EDA + Q-Commerce Dark Store EDA
+#
+# Install all dependencies:
+#   pip install -r requirements.txt
+#
+# Python version: 3.10+
+# ─────────────────────────────────────────────────────────
+
+# ── Core data stack ──────────────────────────────────────
+pandas>=2.0.0              # DataFrames, groupby, merging, time series
+numpy>=1.24.0              # Numerical operations, array manipulation
+
+# ── Visualisation ────────────────────────────────────────
+matplotlib>=3.7.0          # Static charts (bar, line, pie, heatmap)
+seaborn>=0.12.0            # Statistical charts (violin, KDE, heatmap)
+plotly>=5.14.0             # Interactive charts (stacked bar, scatter, sunburst)
+
+# ── Notebook environment ─────────────────────────────────
+jupyter>=6.5.0             # Jupyter Notebook server
+ipykernel>=6.0.0           # Python kernel for Jupyter
+
+# ── Optional — faster Jupyter experience ─────────────────
+# jupyterlab>=4.0.0        # Modern JupyterLab interface (optional)
+# nbconvert>=7.0.0         # Export notebooks to HTML/PDF (optional)
