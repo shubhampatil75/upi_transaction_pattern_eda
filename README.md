@@ -64,16 +64,17 @@ The dataset contains approximately 52.5 lakh UPI transactions covering the perio
 
 After downloading, place the CSV files inside the following folder structure:
 
-data/
-├── upi_transactions_2017.csv
-├── upi_transactions_2018.csv
-├── upi_transactions_2019.csv
-├── upi_transactions_2020.csv
-├── upi_transactions_2021.csv
-├── upi_transactions_2022.csv
-├── upi_transactions_2023.csv
-├── upi_transactions_2024.csv
-└── upi_transactions_2025.csv
+
+├── data/
+    ├── upi_transactions_2017.csv
+    ├── upi_transactions_2018.csv
+    ├── upi_transactions_2019.csv
+    ├── upi_transactions_2020.csv 
+    ├── upi_transactions_2021.csv
+    ├── upi_transactions_2022.csv
+    ├── upi_transactions_2023.csv
+    ├── upi_transactions_2024.csv
+    └── upi_transactions_2025.csv
 
 ## 📁 Dataset Overview
 
@@ -133,8 +134,8 @@ upi-transaction-pattern-eda/
 │
 ├── UPI_EDA_Project.ipynb        ← Main analysis notebook
 ├── visuals/                     ← Auto-generated charts (.html, .png)
-│   ├── viz_01_status.png
-│   ├── viz_02_app_dist.html
+│   ├── viz_01_app_dist.png
+│   ├── viz_02_market_rev.png
 │   └── ...
 │
 ├── README.md                    ← This file
